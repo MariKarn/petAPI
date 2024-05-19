@@ -1,15 +1,14 @@
-# README
+# API Veterinaria
+Esta es una api de desarrollo para una base de datos de una veterinaria y evaluacion para la asignatura Bases de Datos.
 
-This is the [Express](https://expressjs.com) [Hello world](https://expressjs.com/en/starter/hello-world.html) example on [Render](https://render.com).
+### Instalacion y uso
+- Instala NodeJS (preferiblemente la version 21) 
+- ejecuta:
+    
+        npm install && npm run dev
 
-The app in this repo is deployed at [https://express.onrender.com](https://express.onrender.com).
+- Para probar la API puede utilizar alguna API Testing Tool como `Postman` `Insomnia` o `HTTPie`.
 
-## Deployment
+Los Temas relacionados a la planificacion y uso de la API estan en __doc__ y __lib/README.md__. el archivo de migracion y su uso se encuentran en __migration__.
 
-See https://render.com/docs/deploy-node-express-app or follow the steps below:
-
-Create a new web service with the following values:
-  * Build Command: `yarn`
-  * Start Command: `node app.js`
-
-That's it! Your web service will be live on your Render URL as soon as the build finishes.
+> __Mariana Nelo__,  2024
