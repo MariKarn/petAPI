@@ -1,17 +1,19 @@
 {
-  "name": "petvetapi",
+  "name": "express-hello-world",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "dev": "node --watch ."
-  },
-  "keywords": [],
+  "description": "Express Hello World on Render",
+  "main": "app.js",
+  "repository": "https://github.com/render-examples/express-hello-world",
   "author": "Mariana Nelo",
-  "license": "ISC",
-  "description": "",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
-    "body-parser": "^1.20.2",
-    "express": "^4.19.2",
-    "mysql2": "^3.9.7"
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14"
   }
 }
